@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: 早点休息，轻松惬意
 ---
 
