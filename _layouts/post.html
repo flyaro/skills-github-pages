@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title }} - {{ site.title }}</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ site.baseurl | default: '/' }}">{{ site.title }}</a></h1>
+    </header>
+    <main>
+      <article>
+        <h2>{{ page.title }}</h2>
+        <p class="meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+        {{ content }}
+      </article>
+    </main>
+    <footer>
+      <small>© {{ site.time | date: "%Y" }} {{ site.author }}</small>
+    </footer>
+  </body>
+</html>

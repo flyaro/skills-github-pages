@@ -1,0 +1,8 @@
+title: "我的技能博客"
+author: "flyaro"
+baseurl: "/skills-github-pages"
+url: "https://flyaro.github.io"
+theme: minima
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title.html
+exclude: []
